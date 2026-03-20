@@ -44,9 +44,7 @@ class MainActivity : AppCompatActivity() {
             txtSubject.text.clear()
             txtMark.text.clear()
             txtResult.text = ""}
-
-        \'..>
-        '
+        
 
         btnEvaluate.setOnClickListener {
             val studentNo = txtStudentNo.text.toString()
